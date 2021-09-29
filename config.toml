@@ -16,11 +16,11 @@ theme = 'PaperMod'
 	[params.profileMode]
 	enabled = true
 	[[params.profileMode.buttons]]
-	name = "Blog"
-	url = "/blog"
+	name = 'Blog'
+	url = '/blog'
 	[[params.profileMode.buttons]]
-	name = "Archive"
-	url = "/archives"
+	name = 'Archive'
+	url = '/archives'
 
 [markup.highlight]
 	style = 'native'
