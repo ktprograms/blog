@@ -1,0 +1,44 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Thoughts and Learnings of ktprograms'
+theme = 'PaperMod'
+
+[params]
+	disableSpecial1stPost = true
+	ShowReadingTime = true
+	ShowCodeCopyButtons = true
+	ShowToc = true
+	ShowBreadCrumbs = true
+
+	[params.assets]
+	disableHLJS = false
+
+	[params.profileMode]
+	enabled = true
+	[[params.profileMode.buttons]]
+	name = "Blog"
+	url = "/blog"
+	[[params.profileMode.buttons]]
+	name = "Archive"
+	url = "/archives"
+
+[markup.highlight]
+	style = 'native'
+	lineNos = true
+
+[outputs]
+	home = [
+		'HTML',
+		'RSS',
+		'JSON'
+	]
+
+[[languages.en.menu.main]]
+	name = 'Search'
+	url = 'search/'
+[[languages.en.menu.main]]
+	name = 'Tags'
+	url = 'tags/'
+[[languages.en.menu.main]]
+	name = 'Archives'
+	url = 'archives/'
