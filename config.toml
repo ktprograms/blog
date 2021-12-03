@@ -2,6 +2,7 @@ baseURL = 'https://ktprograms.github.io/blog/'
 languageCode = 'en-us'
 title = 'Thoughts and Learnings of ktprograms'
 theme = 'PaperMod'
+canonifyURLs = true
 
 [params]
 	disableSpecial1stPost = true
