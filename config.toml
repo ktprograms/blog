@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://ktprograms.github.io/blog/'
 languageCode = 'en-us'
 title = 'Thoughts and Learnings of ktprograms'
 theme = 'PaperMod'
